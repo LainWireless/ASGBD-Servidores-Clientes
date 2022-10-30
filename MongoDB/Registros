@@ -1,0 +1,17 @@
+db.usuarios.insert({nombre: "Juan", apellido: "Perez", edad: 25 })
+
+db.usuarios.insert({nombre: "Maria", apellido: "Gomez", edad: 30 })
+
+db.usuarios.insert({nombre: "Pedro", apellido: "Gonzalez", edad: 35 })
+
+db.productos.insert({nombre: "Mouse", precio: 100 })
+
+db.productos.insert({nombre: "Teclado", precio: 200 })
+
+db.productos.insert({nombre: "Monitor", precio: 300 })
+
+db.pedidos.insert({usuario: "Juan", producto: "Mouse", cantidad: 1 })
+
+db.pedidos.insert({usuario: "Maria", producto: "Teclado", cantidad: 2 })
+
+db.pedidos.insert({usuario: "Pedro", producto: "Monitor", cantidad: 3 })
